@@ -1,0 +1,12 @@
+.jogador{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 4px solid #888;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+.c2{
+    background-color: aqua;
+}
