@@ -11,7 +11,7 @@ todosOsCursos.map((elemento)=> {
     
     elemento.addEventListener('click', (evt)=>{
         
-        const elemento = evt.target;
+        const elemento = evt.target; // pegar elemento que foi clicado
         console.log(elemento);
         elemento.classList.toggle("selecionado");
 
@@ -29,4 +29,13 @@ btnCaixa2.addEventListener('click', ()=> {
         caixa2.appendChild(elemento);
     })
 
+})
+
+btnCaixa1.addEventListener('click', ()=> {
+    const cursosSelecionados = [...document.querySelectorAll('.selecionado')]
+    console.log(cursosSelecionados);
+
+    cursosSelecionados.map((curso) => {
+        caixa1.appendChild(curso)
+    })
 })
