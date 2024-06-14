@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curso{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 4px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.c1{
+    background-color: #ccc;
+    color: #444;
+}
+
+.caixa{
+    border: 4px solid black;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    height: 400px;
+    width: 400px;
+}
